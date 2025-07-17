@@ -206,17 +206,23 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/user/:userId/progress", async (req, res) => {
     try {
       const userId = parseInt(req.params.userId);
+      console.log(`Getting progress for user ${userId}`);
+      
       const history = await storage.getUserQuestionHistory(userId);
       const allQuestions = await storage.getAllQuestions();
       const unseenQuestions = await storage.getUnseenQuestions(userId);
       
-      res.json({
+      const progressData = {
         totalQuestions: allQuestions.length,
         seenQuestions: history.length,
         unseenQuestions: unseenQuestions.length,
         progressPercentage: Math.round((history.length / allQuestions.length) * 100)
-      });
+      };
+      
+      console.log(`Progress data for user ${userId}:`, progressData);
+      res.json(progressData);
     } catch (error) {
+      console.error("Error getting user progress:", error);
       res.status(500).json({ message: "Failed to get user progress" });
     }
   });
