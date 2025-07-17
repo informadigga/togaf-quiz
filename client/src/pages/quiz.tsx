@@ -72,35 +72,50 @@ export default function Quiz() {
   // Get user progress
   const { data: progress } = useQuery({
     queryKey: ["/api/user", currentUser?.id, "progress"],
-    enabled: !quizStarted && !!currentUser,
+    enabled: !quizStarted && !!currentUser && currentUser.id !== 999,
   });
 
   // Login mutation
   const loginMutation = useMutation({
     mutationFn: async (userName: string) => {
+      console.log("Logging in with:", userName);
       const response = await apiRequest("POST", "/api/auth/login", { userName });
-      return response.json();
+      const result = await response.json();
+      console.log("Login response:", result);
+      return result;
     },
     onSuccess: (user: any) => {
+      console.log("Login successful:", user);
       setCurrentUser(user);
-      queryClient.invalidateQueries({ queryKey: ["/api/user", user.id, "progress"] });
+      setUserName('');
+    },
+    onError: (error) => {
+      console.error("Login error:", error);
+      alert("Fehler beim Anmelden. Bitte versuchen Sie es erneut.");
     },
   });
 
   // Start quiz mutation
   const startQuizMutation = useMutation({
     mutationFn: async ({ count, userName }: { count: number; userName: string }) => {
+      console.log("Starting quiz with:", { count, userName });
       const response = await apiRequest("POST", "/api/quiz/start", { questionCount: count, userName });
-      return response.json();
+      const result = await response.json();
+      console.log("Quiz start response:", result);
+      return result;
     },
     onSuccess: (session: QuizSession) => {
+      console.log("Quiz session started successfully:", session);
       setSessionId(session.id);
-      // Set initial countdown time: 30 minutes for 30 questions, 60 minutes for 60 questions
       const initialTime = questionCount === 30 ? 30 * 60 : 60 * 60;
       setTimeRemaining(initialTime);
       setQuizStarted(true);
       setShowResults(false);
       setShowReview(false);
+    },
+    onError: (error) => {
+      console.error("Error starting quiz:", error);
+      alert("Fehler beim Starten des Quiz. Bitte versuchen Sie es erneut.");
     },
   });
 
@@ -410,36 +425,38 @@ export default function Quiz() {
                 Practice with authentic TOGAF 10 Part 1 exam questions from our pool of 248+ certification questions. Select your preferred quiz length and test your knowledge.
               </p>
               
-              {/* Progress Display */}
-              {progress && (
-                <div className="bg-slate-700 p-4 rounded-lg mb-6">
-                  <div className="flex justify-between items-center mb-2">
-                    <span className="text-sm font-medium text-gray-300">Your Progress</span>
-                    <Button
-                      onClick={() => resetProgressMutation.mutate()}
-                      variant="ghost"
-                      size="sm"
-                      className="text-gray-400 hover:text-gray-200"
-                      disabled={resetProgressMutation.isPending}
-                    >
-                      <RotateCcw className="w-4 h-4 mr-1" />
-                      Reset
-                    </Button>
-                  </div>
-                  <div className="text-sm text-gray-400">
-                    {progress.seenQuestions} / {progress.totalQuestions} questions completed ({progress.progressPercentage}%)
-                  </div>
-                  <div className="w-full bg-slate-600 rounded-full h-2 mt-2">
-                    <div 
-                      className="bg-blue-600 h-2 rounded-full transition-all duration-300"
-                      style={{ width: `${progress.progressPercentage}%` }}
-                    />
-                  </div>
-                  <div className="text-xs text-gray-400 mt-1">
-                    {progress.unseenQuestions} unseen questions remaining
-                  </div>
+              {/* Progress Display - Always show with fallback */}
+              <div className="bg-slate-700 p-4 rounded-lg mb-6">
+                <div className="flex justify-between items-center mb-2">
+                  <span className="text-sm font-medium text-gray-300">Your Progress</span>
+                  <Button
+                    onClick={() => resetProgressMutation.mutate()}
+                    variant="ghost"
+                    size="sm"
+                    className="text-gray-400 hover:text-gray-200"
+                    disabled={resetProgressMutation.isPending}
+                  >
+                    <RotateCcw className="w-4 h-4 mr-1" />
+                    Reset
+                  </Button>
                 </div>
-              )}
+                <div className="text-sm text-gray-400">
+                  {progress ? (
+                    `${progress.seenQuestions} / ${progress.totalQuestions} questions completed (${progress.progressPercentage}%)`
+                  ) : (
+                    "Loading progress..."
+                  )}
+                </div>
+                <div className="w-full bg-slate-600 rounded-full h-2 mt-2">
+                  <div 
+                    className="bg-blue-600 h-2 rounded-full transition-all duration-300"
+                    style={{ width: `${progress?.progressPercentage || 0}%` }}
+                  />
+                </div>
+                <div className="text-xs text-gray-400 mt-1">
+                  {progress ? `${progress.unseenQuestions} unseen questions remaining` : "Calculating..."}
+                </div>
+              </div>
 
               {/* Question Count Selector */}
               <div className="mb-6">
