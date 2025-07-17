@@ -13,13 +13,19 @@ if (!DATABASE_URL) {
   );
 }
 
-// Configure standard PostgreSQL connection for Supabase with longer timeout
+// Configure standard PostgreSQL connection for Supabase with longer timeout and IPv4 preference
 const pool = new Pool({
   connectionString: DATABASE_URL,
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
   max: 20,
   idleTimeoutMillis: 30000,
   connectionTimeoutMillis: 30000, // Increased from 2000 to 30000
+  // Force IPv4 to avoid IPv6 connection issues on some platforms
+  host: 'db.doulajglyumdhshmhtlw.supabase.co',
+  port: 5432,
+  database: 'postgres',
+  user: 'postgres',
+  password: 'T0G4FF4GT0T0G4FF4GT0',
 });
 
 export const db = drizzle(pool, { schema });
