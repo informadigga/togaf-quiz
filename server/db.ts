@@ -3,7 +3,11 @@ const { Pool } = pkg;
 import { drizzle } from 'drizzle-orm/node-postgres';
 import * as schema from "../shared/schema";
 
-if (!process.env.DATABASE_URL) {
+// Fallback database URL for production deployment
+const DATABASE_URL = process.env.DATABASE_URL || 
+  'postgresql://postgres:T0G4FF4GT0T0G4FF4GT0@db.doulajglyumdhshmhtlw.supabase.co:5432/postgres';
+
+if (!DATABASE_URL) {
   throw new Error(
     "DATABASE_URL must be set. Did you forget to provision a database?",
   );
@@ -11,7 +15,7 @@ if (!process.env.DATABASE_URL) {
 
 // Configure standard PostgreSQL connection for Supabase with longer timeout
 const pool = new Pool({
-  connectionString: process.env.DATABASE_URL,
+  connectionString: DATABASE_URL,
   ssl: process.env.NODE_ENV === 'production' ? { rejectUnauthorized: false } : false,
   max: 20,
   idleTimeoutMillis: 30000,
