@@ -50,91 +50,37 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const user = await storage.findOrCreateUserByName(userName);
       res.json(user);
     } catch (error) {
-      res.status(500).json({ message: "Failed to login" });
+      console.error("Login error:", error);
+      res.status(500).json({ message: "Failed to login", error: error.message });
     }
   });
 
-  // Create a new quiz session
+  // Create a new quiz session (simplified version)
   app.post("/api/quiz/start", async (req, res) => {
     try {
+      console.log("Quiz start request:", req.body);
       const { questionCount, userName } = createQuizSessionSchema.parse(req.body);
+      
+      // Find or create user
       const user = await storage.findOrCreateUserByName(userName);
+      console.log("User found/created:", user);
       
-      // Get user progress to check completion
-      const progress = await storage.getUserProgress(user.id);
-      
-      // If progress is complete (all questions seen), flush progress
-      if (progress.progressPercentage >= 100) {
-        await storage.resetUserProgress(user.id);
-        console.log(`Progress flushed for user ${user.id} - all questions completed`);
-      }
-      
-      // Get all questions and separate into seen/unseen lists
+      // Get all questions
       const allQuestions = await storage.getAllQuestions();
-      const unseenQuestions = await storage.getUnseenQuestions(user.id);
+      console.log("Total questions available:", allQuestions.length);
       
-      // Create seen questions list (all questions minus unseen ones)
-      const unseenIds = new Set(unseenQuestions.map(q => q.id));
-      const seenQuestions = allQuestions.filter(q => !unseenIds.has(q.id));
-      
-      console.log(`Total questions: ${allQuestions.length}`);
-      console.log(`Unseen questions: ${unseenQuestions.length}`);
-      console.log(`Seen questions: ${seenQuestions.length}`);
-      
-      let selectedQuestions = [];
-      
-      if (unseenQuestions.length >= questionCount) {
-        // Enough unseen questions - use only unseen questions
-        console.log(`Using ${questionCount} unseen questions`);
-        const shuffledUnseen = [...unseenQuestions];
-        for (let i = shuffledUnseen.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [shuffledUnseen[i], shuffledUnseen[j]] = [shuffledUnseen[j], shuffledUnseen[i]];
-        }
-        selectedQuestions = shuffledUnseen.slice(0, questionCount);
-      } else if (unseenQuestions.length > 0) {
-        // Not enough unseen questions - put all unseen questions at the front, then fill with seen questions
-        console.log(`Using all ${unseenQuestions.length} unseen questions at front + ${questionCount - unseenQuestions.length} seen questions as fillers`);
-        
-        // Start with all unseen questions (shuffled)
-        const shuffledUnseen = [...unseenQuestions];
-        for (let i = shuffledUnseen.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [shuffledUnseen[i], shuffledUnseen[j]] = [shuffledUnseen[j], shuffledUnseen[i]];
-        }
-        
-        selectedQuestions = [...shuffledUnseen];
-        
-        // Fill remaining slots with seen questions
-        if (seenQuestions.length > 0) {
-          const shuffledSeen = [...seenQuestions];
-          for (let i = shuffledSeen.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffledSeen[i], shuffledSeen[j]] = [shuffledSeen[j], shuffledSeen[i]];
-          }
-          
-          const needed = questionCount - unseenQuestions.length;
-          const fillerQuestions = shuffledSeen.slice(0, needed);
-          selectedQuestions = [...selectedQuestions, ...fillerQuestions];
-        }
-      } else {
-        // No unseen questions - reset progress and start fresh
-        console.log(`No unseen questions available, resetting progress`);
-        await storage.resetUserProgress(user.id);
-        const freshQuestions = await storage.getAllQuestions();
-        const shuffledFresh = [...freshQuestions];
-        for (let i = shuffledFresh.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [shuffledFresh[i], shuffledFresh[j]] = [shuffledFresh[j], shuffledFresh[i]];
-        }
-        selectedQuestions = shuffledFresh.slice(0, questionCount);
+      // Select random questions
+      const shuffled = [...allQuestions];
+      for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
       }
+      const selectedQuestions = shuffled.slice(0, questionCount);
+      const questionIds = selectedQuestions.map(q => q.id);
       
-      const questionIds = selectedQuestions.map((q: any) => q.id);
+      console.log("Selected question IDs:", questionIds);
       
-      console.log(`Session questionIds: ${JSON.stringify(questionIds)} Type: ${typeof questionIds}`);
-      console.log(`Unseen questions available: ${unseenQuestions.length}, Total needed: ${questionCount}`);
-      
+      // Create quiz session
       const session = await storage.createQuizSession({
         userId: user.id,
         questionIds,
@@ -144,14 +90,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
         timeElapsed: 0
       });
       
-      // Mark questions as seen immediately when quiz session is created
-      await storage.markQuestionsAsSeen(user.id, questionIds);
-      console.log(`Marked ${questionIds.length} questions as seen for user ${user.id}`);
-      
+      console.log("Quiz session created:", session);
       res.json(session);
     } catch (error) {
       console.error("Error starting quiz:", error);
-      res.status(500).json({ message: "Failed to create quiz session" });
+      console.error("Error message:", error.message);
+      console.error("Error stack:", error.stack);
+      res.status(500).json({ 
+        message: "Failed to create quiz session", 
+        error: error.message,
+        stack: error.stack 
+      });
     }
   });
 
