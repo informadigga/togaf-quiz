@@ -1,0 +1,2690 @@
+[
+    {
+        "question": "According to TOGAF, which of the following are the architecture domains that are commonly accepted subsets of an overall enterprise architecture?",
+        "options": {
+            "A": "Application, Business, Data, Technology",
+            "B": "Capability, Segment, Strategic",
+            "C": "Context, Definition, Governance, Transformation",
+            "D": "Definition, Realization, Transition, Vision"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following statements about the structure of the TOGAF 9 document is true?",
+        "options": {
+            "A": "Part I describes the TOGAF approach to Enterprise Architecture",
+            "B": "Part II describes the definitions of terms used and the changes between versions of TOGAF",
+            "C": "Part III describes requirements management and is considered to be the core of TOGAF",
+            "D": "Part IV describes the ADM: a collection of guidelines and techniques used in TOGAF 9"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to TOGAF, which one of the following best describes an enterprise architecture?",
+        "options": {
+            "A": "An architecture of a commercial organization",
+            "B": "An architecture that consists of more than one subsidiary company",
+            "C": "An architecture that crosses multiple systems, and multiple functional groups within the enterprise",
+            "D": "The highest level of architecture that can be achieved in a given organization"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In TOGAF, what is the difference between an artifact and a deliverable?",
+        "options": {
+            "A": "An artifact contains one or more deliverables",
+            "B": "Artifacts and deliverables are synonymous; there is no difference between them",
+            "C": "Deliverables are prepared by the Project Manager, whereas artifacts are defined by the Architect",
+            "D": "Deliverables are reusable, whereas artifacts are unique to a given architecture project",
+            "E": "Deliverables are specified as contractual outputs from a project, whereas artifacts are not"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following lists the main components within the TOGAF Architecture Repository?",
+        "options": {
+            "A": "Organizational Metamodel, Architecture Capability, Architecture Landscape, Best Practices, Reference Library, Compliance Strategy",
+            "B": "Architecture Metamodel, Organizational Capability Model, Application Landscape, SIB, Reference Library, Governance Model",
+            "C": "Business Metamodel, Architecture Capability, Architecture Landscape, SIB, Reference Library, Governance Log",
+            "D": "Architecture Metamodel, Architecture Capability, Architecture Landscape, SIB, Reference Library, Governance Log"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Document Categorization Model, which category describes a technique that is referenced by processes categorized as TOGAF Core and TOGAF Mandated?",
+        "options": {
+            "A": "TOGAF Guidelines and Techniques",
+            "B": "TOGAF Recommended",
+            "C": "TOGAF Supporting",
+            "D": "TOGAF Extension"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following reasons best describes why the ADM numbering scheme for versioning output is an example and not mandatory?",
+        "options": {
+            "A": "To show the evolution of deliverables",
+            "B": "To permit adaptation as required",
+            "C": "To enable use with the Architecture Content Framework",
+            "D": "To support change management"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to TOGAF, where should architecture governance artifacts be stored?",
+        "options": {
+            "A": "In the Integrated Information Infrastructure Reference Model",
+            "B": "In the Standards Information Base",
+            "C": "In the Foundation Architecture",
+            "D": "In the Architecture Repository"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following best describes the implications of TOGAF being a generic framework?",
+        "options": {
+            "A": "The organization must utilize an architecture tool in order to tailor the templates for use",
+            "B": "It must be adapted to satisfy organization specific requirements",
+            "C": "It can be utilized by most enterprises without further customization",
+            "D": "It can only be used for enterprise level architecture projects",
+            "E": "It should only be employed under the supervision of highly trained consultants"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is the architecture domain that describes the logical software and hardware capabilities?",
+        "options": {
+            "A": "Application Architecture",
+            "B": "Business Architecture",
+            "C": "
+			
+			
+			
+[
+    {
+        "question": "According to the TOGAF Standard, which one of the following best describes the Enterprise Continuum?",
+        "options": {
+            "A": "A repository for storing architecture artifacts",
+            "B": "A classification scheme for architecture assets",
+            "C": "A lifecycle method for developing architecture",
+            "D": "A set of content patterns",
+            "E": "None of the above"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following is a description of the future state of the architecture for an organization?",
+        "options": {
+            "A": "Baseline Architecture",
+            "B": "Transition Architecture",
+            "C": "Candidate Architecture",
+            "D": "Target Architecture",
+            "E": "Resting Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "As Enterprise Architect you adopted the Architecture Principle that \"Data is an asset\". How often should you review this principle to see if it's still valid and possibly change it?",
+        "options": {
+            "A": "At least annually",
+            "B": "Every time an Architecture Project starts",
+            "C": "Never - once the principle has been set, it should not be changed",
+            "D": "Only if there is significant change in the enterprise's strategy",
+            "E": "Frequently, at least on a yearly basis"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which TOGAF Architecture Development Method (ADM) phase describes the structure and interactions of the primary applications and data?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Phase C: Information Systems Architectures",
+            "C": "Phase D: Technology Architecture",
+            "D": "Preliminary Phase"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following stakeholders is most likely to be interested in the output of Phase D: Technology Architecture of the TOGAF Architecture Development Method (ADM)?",
+        "options": {
+            "A": "Head of Human Resources",
+            "B": "Business Process Manager",
+            "C": "Head of IT department",
+            "D": "Enterprise Security Officer",
+            "E": "Lead Architect"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following examples is an asset that is classified as \"specific\" by the Enterprise Continuum?",
+        "options": {
+            "A": "Generic security protocols",
+            "B": "General industry best practices",
+            "C": "Customized infrastructure components",
+            "D": "Off-the-shelf Product Lifecycle Business Application"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the main objective of the Preliminary Phase of the TOGAF Architecture Development Method (ADM)?",
+        "options": {
+            "A": "Develop the Target Architecture",
+            "B": "Determine Solution Building Blocks",
+            "C": "Select models, views and other useful things",
+            "D": "Scope the elements of the enterprise affected by the EA Capability"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) defines the applications, data structures and relationships required to support the enterprise?",
+        "options": {
+            "A": "Requirements Management",
+            "B": "Phase H: Architecture Change Management",
+            "C": "Phase D: Technology Architecture",
+            "D": "Phase C: Information Systems Architectures"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) starts the formulation of an overall Implementation and Migration Strategy that will guide the implementation of the Target Architecture?",
+        "options": {
+            "A": "Phase F: Migration Planning",
+            "B": "Phase G: Implementation Governance",
+            "C": "Phase E: Opportunities and Solutions",
+            "D": "Requirements Management"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, 10th edition, which of the following best describes Architecture Governance?",
+        "options": {
+            "A": "Software & Tools used during architecture implementation",
+            "B": "Blueprint & Design of an enterprise's Technology Architecture",
+            "C": "Practice of monitoring & directing architecture work to ensure alignment with business",
+            "D": "System by which (Enterprise) Architectures are directed and controlled",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) is the 'Statement of Architecture Work' approved by sponsors?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase H: Architecture Change Management"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) is the 'Enterprise Metamodel' selected and adapted?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase B: Business Architecture",
+            "C": "Requirements Management",
+            "D": "Phase C: Information Systems Architectures",
+            "E": "Preliminary Phase"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which of the following best describes the main purpose of the Architecture Development Method (ADM) of the TOGAF Standard?",
+        "options": {
+            "A": "Implementing agile practices within an organization",
+            "B": "Defining an IT strategy for the CIO",
+            "C": "Designing software interfaces between two IT systems",
+            "D": "Providing a step-by-step approach for developing an Enterprise Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which TOGAF Architecture Development Method (ADM) technique is primarily used to assess if an organization is prepared to embrace significant changes?",
+        "options": {
+            "A": "Risk Management",
+            "B": "Business Transformation Readiness Assessment",
+            "C": "Stakeholder Management",
+            "D": "Capability-based planning",
+            "E": "Business Scenarios"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following is a reference model defining what has to be done in order to deliver solutions in an architected way?",
+        "options": {
+            "A": "(Enterprise) Architecture Repository",
+            "B": "Architecture Capability Framework",
+            "C": "Enterprise Continuum",
+            "D": "Architecture Development Method (ADM)",
+            "E": "All of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) is the 'Request for Architecture Work' created?",
+        "options": {
+            "A": "Requirements Management",
+            "B": "Phase H: Architecture Change Management",
+            "C": "Phase F: Migration Planning",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "Preliminary Phase"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) is the EA framework first tailored to meet the business need?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Requirements Management",
+            "C": "Phase A: Architecture Vision",
+            "D": "Phase B: Business Architecture",
+            "E": "None of the above"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) develops the Target Technology Architecture that enables the Architecture Vision, target business, data and application Building Blocks?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase B: Business Architecture",
+            "C": "Phase D: Technology Architecture",
+            "D": "Phase C: Information Systems Architectures"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In case an organization decides to go through Phases B-D of the TOGAF Architecture Development Method (ADM), and then go back over Phases B-D again with more detail - what is this an example of?",
+        "options": {
+            "A": "Iteration",
+            "B": "Modularization",
+            "C": "Diversification",
+            "D": "Segmentation",
+            "E": "Illustration"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) are the Baseline and Target Business Architectures developed?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase E: Opportunities and Solutions",
+            "D": "Phase F: Migration Planning",
+            "E": "Phase B: Business Architecture"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following is an architectural work product describing an aspect of the architecture?",
+        "options": {
+            "A": "Viewpoint",
+            "B": "Artifact",
+            "C": "Baseline Architecture",
+            "D": "View"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) develops the Target Business Architecture?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase E: Opportunities and Solutions"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) determines the (Enterprise) Architecture Capability desired by the organization?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase F: Migration Planning",
+            "D": "Preliminary Phase",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) you might find a 'Governance Reporting Table' resulting from a Gap Analysis as possibly one of the artifacts created?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase H: Architecture Change Management",
+            "C": "Phase D: Technology Architecture",
+            "D": "Requirements Management"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) obtains approval for a Statement of Architecture Work?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase B: Business Architecture",
+            "C": "Phase E: Opportunities and Solutions",
+            "D": "Preliminary Phase"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following describes one state of the architecture at an architecturally significant point in time?",
+        "options": {
+            "A": "Candidate Architecture",
+            "B": "Baseline Architecture",
+            "C": "Transition Architecture",
+            "D": "Resting Architecture",
+            "E": "Target Architecture"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which statement best describes a Building Block (BB)?",
+        "options": {
+            "A": "A proven solution for Enterprise Architecture requirements",
+            "B": "A process of defining the structure, organization and implementation of architectural components",
+            "C": "A standalone technology component not interacting with other components",
+            "D": "A potentially re-usable component delivering architectures and solutions"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) are the Baseline and Target Application Architectures developed?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Phase C: Information Systems Architectures",
+            "C": "Phase D: Technology Architecture",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "Phase F: Migration Planning"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) ensures that all relevant architecture requirements are available for use by each ADM phase?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase H: Architecture Change Management",
+            "C": "Phase E: Opportunities and Solutions",
+            "D": "Requirements Management"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) primarily concentrates on formulating the implementation and migration strategy?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase E: Opportunities and Solutions",
+            "C": "Phase F: Migration Planning",
+            "D": "Phase G: Implementation Governance"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following concepts the TOGAF Standard defines as a system from the perspective of a related set of concerns?",
+        "options": {
+            "A": "(Architecture) Vision",
+            "B": "(Architecture) Viewpoint",
+            "C": "(Architecture) View",
+            "D": "(Architecture) Viewpoint Library",
+            "E": "(Architecture) Viewpoint Catalog"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following is a work product that is contractually specified and formally reviewed, agreed and signed off by the stakeholders?",
+        "options": {
+            "A": "Architecture Building Block (ABB)",
+            "B": "Solutions Building Block (SBB)",
+            "C": "Deliverable",
+            "D": "Building Block",
+            "E": "Artifact"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) is a draft of the 'Architecture Definition Document' created?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "Requirements Management"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which TOGAF Architecture Development Method (ADM) phase primarily ensures conformance of the Implementation Projects with the Target Architecture?",
+        "options": {
+            "A": "Phase F: Migration Planning",
+            "B": "Phase G: Implementation Governance",
+            "C": "Phase H: Architecture Change Management",
+            "D": "Requirements Management"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, when performing a Gap Analysis, what is a \"gap\"?",
+        "options": {
+            "A": "A shortfall between Baseline and Target Architectures",
+            "B": "A lack of alignment between business and IT strategy",
+            "C": "An architectural decision that has not been approved by the Architecture Board",
+            "D": "A missing software product within the enterprise's IT landscape"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) ensures that the (Enterprise) Architecture Capability meets current requirements?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Requirements Management",
+            "C": "Phase H: Architecture Change Management",
+            "D": "Phase A: Architecture Vision",
+            "E": "None of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Complete the sentence: All of the following elements belong to the Enterprise Continuum, except the...",
+        "options": {
+            "A": "...Architecture Continuum.",
+            "B": "...Architecture Context and Requirements.",
+            "C": "...Solutions Continuum.",
+            "D": "...(Enterprise) Architecture Metamodel."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following best describes the concept 'enterprise'?",
+        "options": {
+            "A": "Any collection of organizations that have common goals",
+            "B": "A large multinational corporation",
+            "C": "A formal structure with the primary goal of producing profits",
+            "D": "A business model delivering and capturing value"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following Architecture Development Method (ADM) phase focuses on creating an initial Architecture Vision?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Phase A: Architecture Vision",
+            "C": "Preliminary Phase",
+            "D": "Phase H: Architecture Change Management"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Complete the sentence: According to the TOGAF Standard, all of the following is part of the scope of an Enterprise Architecture, except the...",
+        "options": {
+            "A": "...level of detail (depth).",
+            "B": "...Architecture Domains (Business, Data, Application, Technology).",
+            "C": "...time period.",
+            "D": "...enterprise scope (breadth).",
+            "E": "...Architecture Capability (organization)."
+        },
+        "answer": "E"
+    }
+]
+
+
+[
+    {
+        "question": "Which one of the following statements about Building Blocks (BB) is false?",
+        "options": {
+            "A": "They are packages of functionality defined to meet the business needs across an organization.",
+            "B": "They may be assembled from other Building Blocks.",
+            "C": "They are equivalent to software components or micro services.",
+            "D": "They should have published and stable interfaces allowing them to interoperate with other, interdependent Building Blocks.",
+            "E": "They are defined in an evolutionary and iterative process."
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Complete the sentence: According to the TOGAF Standard, custom developed or purchased processes and IT systems are considered...",
+        "options": {
+            "A": "...components.",
+            "B": "...(architecture) patterns.",
+            "C": "...Architecture Building Blocks (ABBs).",
+            "D": "...Solution Building Blocks (SBBs).",
+            "E": "...Architecture Modules."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following statements the TOGAF Standard describes as the purpose of the Architecture Requirements Specification?",
+        "options": {
+            "A": "A record of deviations from the planned architectural approach",
+            "B": "A quantitative view of the solution stating measurable criteria that must be met",
+            "C": "A qualitative view of the solution to communicate the intent of the architect",
+            "D": "A document that triggers the start of an Architecture Development Method (ADM) cycle",
+            "E": "An architectural work product that is contractually specified and in turn formally reviewed, agreed, and signed off by the stakeholders"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following statements the TOGAF Standard describes as the purpose of the Communications plan?",
+        "options": {
+            "A": "Ensuring effective communication of targeted information to the right stakeholders at the right time",
+            "B": "Ensuring that the findings of a Compliance Review are distributed to the Architecture Board",
+            "C": "Communicating the architecture to all stakeholders",
+            "D": "Keeping the Architecture Governance Board informed of changes to the Enterprise Architecture"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following statements does not describe the purpose of Enterprise Architecture?",
+        "options": {
+            "A": "Achieving a balance between business transformation and operational efficiency",
+            "B": "Providing a strategic context for the evolution of the enterprise",
+            "C": "Enabling an integrated strategy with synergies across the enterprise and beyond",
+            "D": "Providing guidance and orientation for hybrid software development"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence by selecting the applicable pair of words: When considering Architecture Governance, the Enterprise Architecture team and the implementer are ... and ... by the stakeholder.",
+        "options": {
+            "A": "consulted / controlled",
+            "B": "managed/ consulted",
+            "C": "directed/ controlled",
+            "D": "directed / managed"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "The EA Framework of the Open Group has a modular structure. Which different parts the TOGAF Standards consists of?",
+        "options": {
+            "A": "The TOGAF Standard, TOGAF Fundamental Content, TOGAF Series Guides, TOGAF Library",
+            "B": "Architecture Continuum, Solutions Continuum, Enterprise Continuum, Deployed Solutions",
+            "C": "Architecture Landscape, Solutions Landscape, Standards Library, Architecture Capability",
+            "D": "Architecture Vision, Business Architecture, Information Systems Architecture, Technology Architecture",
+            "E": "Business Architecture, Information Systems Architecture, Technology Architecture"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "The TOGAF Series Guides provide guidance to address specific concerns and use cases with further explanations and more details. Which guide is not part of the TOGAF Standard?",
+        "options": {
+            "A": "Technology Architecture",
+            "B": "Business Architecture",
+            "C": "Security Architecture",
+            "D": "Adapting the ADM",
+            "E": "ADM Practices"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "The TOGAF Standard aligns to Agile development in Phase G: Implementation Governance. Which one of the following explanations supports this statement?",
+        "options": {
+            "A": "As a Product Owner, the Lead Architect submits Change Request to enable the agile development of the Enterprise Architecture.",
+            "B": "The Enterprise Architect serves the stakeholders guarding the mission, vision, goals, and investment roadmap.",
+            "C": "During the post-implementation review in Phase H: Architecture Change Management, sponsoring organization and EA team investigate on the architecture.",
+            "D": "In Phase G: Implementation Governance all constraints limiting the architecture development must bend and as such be adapted."
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following documents or concepts contains the core architectural artifacts created during a project?",
+        "options": {
+            "A": "Statement of Architecture Work",
+            "B": "Change Request",
+            "C": "Enterprise Continuum",
+            "D": "Architecture Definition Document",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following documents or concepts contains the business goals, strategic plans and changes in environment?",
+        "options": {
+            "A": "Architecture Strategy",
+            "B": "Statement of Architecture Work",
+            "C": "Request for Architecture Work",
+            "D": "Architecture Vision"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) does the actual implementation of the Enterprise Architecture begin?",
+        "options": {
+            "A": "Phase E: Opportunities and Solutions",
+            "B": "Phase F: Migration Planning",
+            "C": "Phase G: Implementation Governance",
+            "D": "Phase H: Architecture Change Management",
+            "E": "None of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) determines existing business constraints for the upcoming implementation?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase B: Business Architecture",
+            "C": "Phase E: Opportunities and Solutions",
+            "D": "Phase F: Migration Planning",
+            "E": "Requirements Management"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following statements is not a benefit of Enterprise Architecture?",
+        "options": {
+            "A": "Ensuring effective and efficient business operations",
+            "B": "Ensuring that IT components can be procured cheaply",
+            "C": "Ensuring more effective strategic decision-making",
+            "D": "Ensuring faster, simpler, and cheaper procurement",
+            "E": "Ensuring a more effective and efficient digital transformation and operations"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Complete the sentence: The Enterprise Continuum provides a model for categorizing internal and external artifacts held in...",
+        "options": {
+            "A": "...Enterprise Repositories.",
+            "B": "...Architecture Solutions.",
+            "C": "...the Enterprise Architecture Capability.",
+            "D": "...the Architecture Definition Document."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "The TOGAF Architecture Development Method (ADM) contains 10 phases. How many of them are arranged in a cycle?",
+        "options": {
+            "A": "10",
+            "B": "9",
+            "C": "8",
+            "D": "7",
+            "E": "None of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) the Business Transformation Readiness Assessment is initially conducted?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "Phase F: Migration Planning"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is used to assess an organization's Business Transformation Readiness?",
+        "options": {
+            "A": "Governance Reporting Tables",
+            "B": "Business Scenarios",
+            "C": "Maturity Models",
+            "D": "Consolidated Gaps, Solutions, and Dependencies Matrix"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Who normally initiates a(n Architecture) Compliance Assessment ensuring that the design and implementation is in line with the strategic and architectural objectives and the Architecture Vision?",
+        "options": {
+            "A": "Customer",
+            "B": "Architecture Board",
+            "C": "IT Governance Organization",
+            "D": "Chief Information Officer (CIO)"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) addresses the Architectural Governance of the implementation projects?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase F: Migration Planning",
+            "D": "Phase G: Implementation Governance",
+            "E": "Phase H: Architecture Change Management"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence with the applicable pair of words: Mitigation actions identified with a Business Transformation Readiness Assessment are worked into Phase ... and Phase",
+        "options": {
+            "A": "Phase A: Architecture Vision / Phase B: Business Architecture",
+            "B": "Phase E: Opportunities and Solutions / Phase F: Migration Planning",
+            "C": "Preliminary Phase / Phase A: Architecture Vision",
+            "D": "Phase G: Implementation Governance / Phase H: Architecture Change Management"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following statements about the Business Transformation Readiness Assessment is false?",
+        "options": {
+            "A": "The ADM Technique consists of five recommended activities in an assessment of an organization's readiness.",
+            "B": "The ADM Technique assesses the organization's readiness to address business transformation.",
+            "C": "The ADM Technique uses maturity models to present the readiness factors.",
+            "D": "The ADM Technique identifies risks and improvement actions.",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) specifies how applications share information and services as part of interoperability?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Phase C: Information Systems Architectures",
+            "C": "Phase D: Technology Architecture",
+            "D": "Phase F: Migration Planning",
+            "E": "None of the above"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following statement is not a change classification according to the TOGAF Standard?",
+        "options": {
+            "A": "Simplification change",
+            "B": "Incremental change",
+            "C": "Re-architecturing change",
+            "D": "Emergency change"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which ADM Technique usually identifies the need for change within the enterprise?",
+        "options": {
+            "A": "Business Transformation Readiness Assessment",
+            "B": "Architecture Principles",
+            "C": "Interoperability",
+            "D": "Risk Management",
+            "E": "Gap Analysis"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) business transformation risks are mainly identified?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "Phase F: Migration Planning"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the TOGAF Standard deliverables should contain mitigation actions addressing business transformation readiness risks?",
+        "options": {
+            "A": "Implementation and Migration Plan",
+            "B": "Architecture Principles",
+            "C": "Statement of Architecture Work",
+            "D": "Architecture Vision",
+            "E": "Architecture Requirements Specification"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following statements does not apply to Risk Management according to the TOGAF Standard?",
+        "options": {
+            "A": "Risk Management is a technique used in the Architecture Development Method (ADM).",
+            "B": "Risk Management is a top-down assessment starting with business value and its optimization.",
+            "C": "Risk Management aims at maximizing business value while minimizing business losses.",
+            "D": "Risk Management analyses positive or negative events on strategic, tactical & operational level.",
+            "E": "Risk Management only identifies existing risks."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following statements the TOGAF Standard does not consider as an activity when analyzing Architecture Alternatives?",
+        "options": {
+            "A": "Identify alternative Target Architectures",
+            "B": "Build an understanding of different possibilities",
+            "C": "Identify trade-offs between the alternatives",
+            "D": "Discuss pros and cons of a specific alternatives solely with the sponsor of the Enterprise Architecture endeavor"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which three acronyms does the TOGAF Standard frequently uses throughout its documentation?",
+        "options": {
+            "A": "ADM, EA, SBB",
+            "B": "ITIL, CI, CR",
+            "C": "TCO, CAPEX, CF",
+            "D": "WBS, PMO, WP"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which approach reviews compliance of projects to the Enterprise Architecture according to the TOGAF Standard?",
+        "options": {
+            "A": "Architecture & Solution function",
+            "B": "Enterprise & IT Governance function",
+            "C": "Architecture Development Method (ADM)",
+            "D": "Enterprise Architecture Management",
+            "E": "Business Transformation Readiness Assessment"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Who's concerns are considered when creating a new (Architecture) Viewpoint?",
+        "options": {
+            "A": "Enterprise Architect",
+            "B": "System-of-Interest",
+            "C": "Stakeholder",
+            "D": "Sponsor",
+            "E": "All of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Complete the sentence: The TOGAF Architecture Development Method (ADM) should be adapted to...",
+        "options": {
+            "A": "...meet the needs of the organization's development partner.",
+            "B": "...meet the needs of the enterprise.",
+            "C": "...fit to the CEO's business strategy.",
+            "D": "...foster innovation and embrace change.",
+            "E": "...comply with external and internal policies."
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which model of the TOGAF Standard helps integrating information by focusing on the application level components and services?",
+        "options": {
+            "A": "Technical Reference Model (TRM)",
+            "B": "Architecture Development Method (ADM)",
+            "C": "Integrated Information Infrastructure Reference Model (III-RM)",
+            "D": "Capability Architecture Framework",
+            "E": "Boundary Less Information Flow"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which phase of the TOGAF Architecture Development Method (ADM) tailors the Enterprise Architecture Framework TOGAF to the organization's needs?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase E: Opportunities and Solutions",
+            "D": "Phase H: Architecture Change Management",
+            "E": "Requirements Management"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following statements the TOGAF Standard does not describe as an Enterprise?",
+        "options": {
+            "A": "Division of a corporation",
+            "B": "Any collection of organizations that have common goals",
+            "C": "Single government department",
+            "D": "Alliances of businesses",
+            "E": "HR departments of two competing companies"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which level of the Architecture Landscape supports direction setting at an executive level?",
+        "options": {
+            "A": "Strategic Architecture",
+            "B": "Segment Architecture",
+            "C": "Capability Architecture",
+            "D": "Business Architecture"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Complete the sentence: The TOGAF Architecture Development Method (ADM) is not iterative...",
+        "options": {
+            "A": "...within phases.",
+            "B": "...between phases.",
+            "C": "...over the whole process.",
+            "D": "...between competing enterprises."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which modeling language can be used to design the Enterprise Metamodel?",
+        "options": {
+            "A": "ArchiMate",
+            "B": "Business Process Modeling and Notation (BPMN)",
+            "C": "Unified Modeling Language (UML)",
+            "D": "Entity Relationship Diagram",
+            "E": "All of the above"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following statements describing the (Architecture) Content Framework is false?",
+        "options": {
+            "A": "The Content Framework can be used as starting point for Enterprise Architecture by structuring architectural information.",
+            "B": "The Content Framework mirrors phases of the Architecture Development Method (ADM) on its top-level structure.",
+            "C": "The Content Framework is influenced by the applied Enterprise Architecture Framework and software tooling.",
+            "D": "The Content Framework is delivered through effective Architecture Governance."
+        },
+        "answer": "D"
+    }
+]
+
+
+[
+    {
+        "question": "Which of the following is not a dimension for defining the scope of an architecture?",
+        "options": {
+            "A": "Architecture Domains",
+            "B": "Level of Detail (depth)",
+            "C": "Time Period",
+            "D": "Enterprise Scope (breadth)",
+            "E": "Problem Area"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Complete the sentence: Architecture Principles, Gap Analysis and Risk Management are...",
+        "options": {
+            "A": "...ADM Techniques.",
+            "B": "...Key Concepts.",
+            "C": "...Architecture Domains.",
+            "D": "...Standard Deliverables.",
+            "E": "...the Architecture Capability Framework."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which Level of the Architectural Landscape describes the abilities of an enterprise?",
+        "options": {
+            "A": "Business Architecture",
+            "B": "Solution Architecture",
+            "C": "Segment Architecture",
+            "D": "Capability Architecture",
+            "E": "Enterprise Strategic Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which part of the Architecture Repository includes parameters, structures and processes that support its governance?",
+        "options": {
+            "A": "Governance Repository",
+            "B": "Architecture Capability",
+            "C": "Architecture Metamodel",
+            "D": "Reference Library",
+            "E": "Standards Library"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Several affiliated companies have a common data model to share global tax information. Which of the following is the best way to classify the model within the Enterprise Continuum?",
+        "options": {
+            "A": "Generic Architecture",
+            "B": "Shared Solution",
+            "C": "Specific Architecture",
+            "D": "Specific Solutions"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is a key objective of Phase A: Architecture Vision?",
+        "options": {
+            "A": "Identify and group major work packages",
+            "B": "Determine whether an incremental approach is required, and if so, identify Transition Architectures that will deliver continuous business value",
+            "C": "Estimate resource requirements, project timings and availability/delivery vehicle",
+            "D": "Develop a strategy and implementation plan for tools and techniques",
+            "E": "Develop a high-level aspirational vision of the capabilities and business value as a result of the proposed Enterprise Architecture"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which document triggers the start of an Architecture Development Method (ADM) cycle?",
+        "options": {
+            "A": "Gap Analysis",
+            "B": "Request for Architecture Work",
+            "C": "Architecture Definition Document",
+            "D": "Statement of Architecture Work",
+            "E": "Change Request"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which phase of the Architecture Development Method (ADM) conducts the initial Implementation Planning of the Target Architectures?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase D: Technology Architecture",
+            "C": "Phase E: Opportunities and Solutions",
+            "D": "Phase F: Migration Planning",
+            "E": "Phase G: Implementation Governance"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In which phase of the Architecture Development Method (ADM) is the Architecture Contract signed between the architecture and the implementation organization?",
+        "options": {
+            "A": "Phase E: Opportunities and Solutions",
+            "B": "Phase F: Migration Planning",
+            "C": "Requirements Management",
+            "D": "Phase G: Implementation Governance",
+            "E": "Phase H: Architecture Change Management"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "A cost-optimization project wants to reduce the amount of servers at an infrastructure level from ten to one servers. What kind of architectural change is necessary for this?",
+        "options": {
+            "A": "A minor change",
+            "B": "A re-architecting change",
+            "C": "A major change",
+            "D": "An incremental change",
+            "E": "A simplification change"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which of the following is an objective of the Preliminary Phase of the Architecture Development Method (ADM)?",
+        "options": {
+            "A": "Defining Architecture Principles",
+            "B": "Identifying and grouping major work packages",
+            "C": "Identifying stakeholders, concerns, and business requirements",
+            "D": "Resolving impacts across the Architecture Landscape",
+            "E": "Defining candidate roadmap components"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following defines and limits the scope of an architecture?",
+        "options": {
+            "A": "Architecture Governance",
+            "B": "Time Period",
+            "C": "Enterprise Continuum",
+            "D": "Business Continuity",
+            "E": "Architecture Principles"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "The Requirements Management Phase is responsible for which of the following activities?",
+        "options": {
+            "A": "Implementing new requirements",
+            "B": "Disposal of resolved requirements",
+            "C": "Generating new requirements",
+            "D": "Assessing the requirement's impact on the current ADM phase",
+            "E": "Ensuring the (re-)prioritization of requirements by the architects and stakeholders"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Complete the sentence: The Business Transformation Readiness Assessment is a technique to...",
+        "options": {
+            "A": "...understand the readiness of the organization to accept change.",
+            "B": "...assess the ability of an enterprise to enter a new market.",
+            "C": "...assess the fulfillment of all technical prerequisites needed for the implementation of the solution.",
+            "D": "...ensure that the business value and cost of work packages and Transition Architectures is understood by key stakeholders.",
+            "E": "...obtain stakeholder approval for the implementation of the solution."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following statements about Architecture Principles is not true?",
+        "options": {
+            "A": "Architecture Principles are rules and guidelines to define and guide the organization.",
+            "B": "Architectural Principles should be long-lasting and rarely changed.",
+            "C": "Architecture Principles should be described with a name, a statement, a rationale and an implication.",
+            "D": "Architectural Principles are detailed requirements that must be fulfilled by every implmentation project."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is not part of the recommended template for defining Architecture Principle?",
+        "options": {
+            "A": "Name",
+            "B": "Statement",
+            "C": "Rationale",
+            "D": "Checklist",
+            "E": "Implications"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "What are the recommended quality criterias for Architecture Principles?",
+        "options": {
+            "A": "Implications, Name, Rationale and Statement",
+            "B": "Specific, Measurable, Achievable, Relevant and Time-Bound",
+            "C": "Complete, Consistent, Robust, Stable and Understandable",
+            "D": "Long-lasting, Measurable, Reliable, Reproducable and Unambiguous"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "What is the main purpose of a Gap Analysis?",
+        "options": {
+            "A": "Identification of discrepancies between Architecture Requirements and Architectural Principles",
+            "B": "Identification of gaps between the Architecture Contract and the implemented solution",
+            "C": "Assigning Business Value and resource requirements to work packages",
+            "D": "Identification of IT-Security gaps",
+            "E": "Identification of a shortfall between Baseline Architecture and Target Architecture"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Complete the sentence: A Building Block (BB) that appears in the Target Architecture and cannot be found in the Baseline Architecture is...",
+        "options": {
+            "A": "...a functionality to be eliminated.",
+            "B": "...an error in the Target Architecture.",
+            "C": "...a non-conformant Solution Building Block (SBB).",
+            "D": "...an error in the Baseline Architecture.",
+            "E": "...a gap that needs to be filled, either by developing or procuring."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which of the following is not the responsibility of the Architecture Board?",
+        "options": {
+            "A": "Establishing targets for re-use of components",
+            "B": "Providing a basis for all decision making regarding the architectures",
+            "C": "Ensuring consistency of sub-architectures",
+            "D": "Developing a high-level aspirational vision of the capabilities and business value to be delivered as a result of the proposed Enterprise Architecture",
+            "E": "Enforcing of architecture compliance"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "What is the purpose of an Architecture Compliance Assessment?",
+        "options": {
+            "A": "Reviewing the validity of a project's Architecture Vision",
+            "B": "Reviewing a project for compliance to external laws and regulations",
+            "C": "Ensuring that the stakeholder concerns are being addressed",
+            "D": "Ensuring that the design and implementation is in line with the strategic and architectural objectives and the Architecture Vision"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is not correct about the Architecture Capability?",
+        "options": {
+            "A": "The Architecture Capability is treated and run like any other operational unit",
+            "B": "The Architecture Capability is a business capability with organization, roles, skills responsibilities & processes",
+            "C": "The architecture capability is created once during the introduction of Enterprise Architecture Management",
+            "D": "The Architecture Capability comprises governance bodies and a skilled resource pool"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following terms defines the TOGAF Standard as \"The structure of components, their interrelationships and the principles and guidelines governing their design and evolution over time.\"?",
+        "options": {
+            "A": "Enterprise Metamodel",
+            "B": "Architecture",
+            "C": "Information Map",
+            "D": "Data Model",
+            "E": "Viewpoint"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following best describes an (Architecture) Viewpoint?",
+        "options": {
+            "A": "Visualization of a stakeholder's requirements",
+            "B": "Concerns of stakeholders",
+            "C": "Reusable command for a database query",
+            "D": "Representation of a system from the perspective of a related set of concerns",
+            "E": "Re-usable template for an architecture view"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which of the following statements about a good Building Block (BB) is incorrect?",
+        "options": {
+            "A": "A Building Block should not be re-used in other Enterprise Architecture projects",
+            "B": "A Building Block should have defined boundaries",
+            "C": "A Building Block may be assembled from and subassembled of other building blocks",
+            "D": "A Building Block may interoperate with other, interdependent Building Blocks."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following statements most simply describes the Enterprise Continuum?",
+        "options": {
+            "A": "Visualization of the Business Architecture",
+            "B": "Categorization view of the Architecture Repository",
+            "C": "Library for Architecture Artifacts",
+            "D": "Configuration Management Database (CMDB)",
+            "E": "Library for external Standards adopted by the Enterprise"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is not an objective for Phase B: Business Architecture?",
+        "options": {
+            "A": "Developing the Target Business Architecture",
+            "B": "Identifying candidate Architecture Roadmap components",
+            "C": "Responding to the strategic drivers set out in the Architecture Vision",
+            "D": "Defining the Strategic Business Plan"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is not an objective for Phase C: Data Architecture?",
+        "options": {
+            "A": "Describing how the enterprise's Data Architecture will enable the Business Architecture and the Architecture Vision",
+            "B": "Developing the Target Data Architecture",
+            "C": "Ensuring that the Architecture Governance Framework is executed",
+            "D": "Identifying candidate Architecture Roadmap components based upon gaps"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is a relevant reference model for use in Phase C: Application Architecture?",
+        "options": {
+            "A": "ARTS Data Model",
+            "B": "Data Model for the Petroleum Industry (POSC)",
+            "C": "Business Reference Model (BRM)",
+            "D": "Technical Reference Model (TRM)",
+            "E": "Integrated Information Infrastructure Reference Model (III-RM)"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which of the following documents establishes the connection between the architecture and the implementation organization in Phase G: Implementation Governance?",
+        "options": {
+            "A": "Architecture Contract",
+            "B": "Architecture Landscape",
+            "C": "Architecture Roadmap",
+            "D": "Implementation and Migration Plan",
+            "E": "Request for Architecture Work"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is not part of the approach to Phase H: Architecture Change Management?",
+        "options": {
+            "A": "Estimating resource requirements, project timings, and delivery vehicles",
+            "B": "Judging changes based on their business value",
+            "C": "Deploying monitoring tools",
+            "D": "Establishing the value realizaton process"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which phase of the Architecture Development Method (ADM) is a continuous activity?",
+        "options": {
+            "A": "Implementation Governance",
+            "B": "Requirements Management",
+            "C": "Architecture Change Management",
+            "D": "Stakeholder Communication"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following statements best describes Risk Management according to the TOGAF Standard?",
+        "options": {
+            "A": "Identifying and assessing the likelihood and magnitude of potential positive or negative events",
+            "B": "Risk categorization after implementation of mitigation",
+            "C": "Effect of uncertainty on objectives with uncertainty as any deviation from what is expected",
+            "D": "Triggers of risk being inside or outside the scope of the transformation"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is a technique recommended by the TOGAF Standard to identify, understand and document the business needs?",
+        "options": {
+            "A": "Architecture Principles",
+            "B": "Gap Analysis",
+            "C": "Business Scenarios",
+            "D": "Information Mapping",
+            "E": "SWOT Analysis"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following provides a foundation for making architecture & planning decisions, framing policies, procedures & standards and supporting resolution of conflicting situations?",
+        "options": {
+            "A": "Supplier Management",
+            "B": "Architecture Roadmap",
+            "C": "Stakeholder Management",
+            "D": "Architecture Principles",
+            "E": "Procurement Policies"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following ADM Techniques is recommended to define business needs and requirements in order to articulate the Architecture Vision in Phase A?",
+        "options": {
+            "A": "Business Vision",
+            "B": "Value Stream Mapping",
+            "C": "Business Transformation Readiness Assessment",
+            "D": "Gap Analysis",
+            "E": "Business Scenarios"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "The Gap Analysis is used in the Phases B, C, D and E of the Architecture Development Method (ADM). Which of the following statements best describes this ADM Technique?",
+        "options": {
+            "A": "Gap Analysis visualizes applications to be retired",
+            "B": "Gap Analysis identifies services to be developed",
+            "C": "Gap Analysis assesses the impact of change",
+            "D": "Gap Analysis defines what must be changed within the enterprise"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following practices manages and controls the Enterprise Architecture at an enterprise-wide level?",
+        "options": {
+            "A": "Corporate Governance",
+            "B": "Architecture Governance",
+            "C": "Due Diligence Management",
+            "D": "Information Management System"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Complete the sentence by selecting the applicable pair of words: According to the TOGAF Standard, a/an... is used to address the ... of a stakeholder.",
+        "options": {
+            "A": "gap analysis / requirements",
+            "B": "viewpoint / requirements",
+            "C": "view/concerns",
+            "D": "architecture trade-off analysis / constraints",
+            "E": "None of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Complete the sentence: According to the TOGAF Standard, every (Architecture) View has an associated... that describes it at least implicitly.",
+        "options": {
+            "A": "(Architecture) Viewpoint",
+            "B": "Architecture Model",
+            "C": "Architecture Description",
+            "D": "Concern",
+            "E": "Requirement"
+        },
+        "answer": "A"
+    }
+]
+
+
+[
+    {
+        "question": "Which one of the following best describes the TOGAF Standard?",
+        "options": {
+            "A": "Enterprise Architecture Framework to develop any kind of architecture in any context",
+            "B": "An enterprise architecture pattern",
+            "C": "A business model",
+            "D": "A concept for developing IT architectures",
+            "E": "An approach for IT Governance"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following TOGAF Architecture Development Method (ADM) phases is the initial phase of an architecture development cycle?",
+        "options": {
+            "A": "Requirements Management",
+            "B": "Preliminary Phase",
+            "C": "Phase C: Information Systems Architectures",
+            "D": "Phase B: Business Architecture",
+            "E": "Phase A: Architecture Vision"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following TOGAF Standard topic areas provides a number of architecture development phases together with purpose and objectives?",
+        "options": {
+            "A": "TOGAF Core Concepts",
+            "B": "Architecture Capability & Governance",
+            "C": "Architecture Development Method (ADM)",
+            "D": "Architecture Content",
+            "E": "TOGAF Library"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which class of architectural output held within the Architecture Repository contains the architectural representation of assets often at multiple levels of abstractions?",
+        "options": {
+            "A": "Standards Library",
+            "B": "Architecture Requirements Repository",
+            "C": "Architecture Landscape",
+            "D": "Architecture Metamodel",
+            "E": "Solutions Landscape"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as the purpose of the Standards Library as part of the Architecture Repository?",
+        "options": {
+            "A": "Providing guidelines, templates, patterns, and other forms of reference material to accelerate the creation of new architectures",
+            "B": "Providing a view of all authorized architecture requirements which have been agreed with the Architecture Board",
+            "C": "Providing a record of governance activity across the enterprise",
+            "D": "Providing standards with which new architectures and implementations must comply",
+            "E": "Providing parameters, structures, and processes that support governance of the Architecture Repository"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which Architecture Domain is normally the first activity undertaken in a TOGAF Architecture Development Method (ADM) cycle?",
+        "options": {
+            "A": "Application Architecture",
+            "B": "Technology Architecture",
+            "C": "Data Architecture",
+            "D": "Business Architecture",
+            "E": "Strategic Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following is considered a relevant resource for the TOGAF Architecture Development Method (ADM) Phase B: Business Architecture available from the Architecture Repository?",
+        "options": {
+            "A": "Industry reference models",
+            "B": "Applicable standards",
+            "C": "Enterprise-specific business architecture views",
+            "D": "Enterprise-specific building blocks",
+            "E": "All of the above"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "In which phase of the Architecture Development Method (ADM) is a draft of the Implementation and Migration Strategy formulated?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase E: Opportunities and Solutions",
+            "C": "Phase F: Migration Planning",
+            "D": "Phase G: Implementation Governance",
+            "E": "Phase H: Architecture Change Management"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "In which phase of the Architecture Development Method (ADM) are the Transition Architectures defined in Phase E: Opportunities and Solutions confirmed with the stakeholders?",
+        "options": {
+            "A": "Phase F: Migration Planning",
+            "B": "Phase G: Implementation Governance",
+            "C": "Phase H: Architecture Change Management",
+            "D": "Requirements Management",
+            "E": "Phase E: Opportunities and Solutions"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "In which phase of the Architecture Development Method (ADM) is an Architecture Contract signed as a governed approach to implement and operate an architecture.",
+        "options": {
+            "A": "Phase E: Opportunities and Solutions",
+            "B": "Phase F: Migration Planning",
+            "C": "Phase G: Implementation Governance",
+            "D": "Phase H: Architecture Change Management",
+            "E": "None of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following is not an objective of the TOGAF Architecture Development Method (ADM) Phase H: Architecture Change Management?",
+        "options": {
+            "A": "Ensuring that the architecture development cycle is maintained",
+            "B": "Ensuring that the Architecture Governance Framework is executed",
+            "C": "Ensuring that the Enterprise Architecture Capability meets current requirements",
+            "D": "Finalizing the Architecture Roadmap"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence: According to TOGAF, the process of recording and managing architecture requirements applies...",
+        "options": {
+            "A": "...to all phases of the Architecture Development Method (ADM).",
+            "B": "...only to the Preliminary Phase.",
+            "C": "...only to Phase A: Architecture Vision.",
+            "D": "...only to Phase E: Opportunities and Solutions.",
+            "E": "...only to the Requirements Management Phase."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Where is the ADM Technique Business Scenarios most prominently used in the Architecture Development Method (ADM) cycle?",
+        "options": {
+            "A": "Phase F: Migration Planning",
+            "B": "Phase G: Implementation Governance",
+            "C": "Phase H: Architecture Change Management",
+            "D": "Phase A: Architecture Vision",
+            "E": "Requirements Management"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "The TOGAF Standard defines Interoperability as the ability to share information and services. Which of the following categories uses a common look-and-feel approach through a common portal-like solution?",
+        "options": {
+            "A": "Information Interoperability",
+            "B": "Application Interoperability",
+            "C": "Presentation Interoperability",
+            "D": "Technical Interoperability",
+            "E": "None of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as the Business Transformation Readiness Assessment technique?",
+        "options": {
+            "A": "A technique to validate an architecture",
+            "B": "A technique to develop general rules and guidelines for the architecture being developed",
+            "C": "A technique to identify and to understand the business requirements an architecture must address",
+            "D": "A technique to understand the readiness of the organization to accept change",
+            "E": "A technique to define the degree to which information and services to be shared"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as 'Residual Level of Risk' in Risk Management?",
+        "options": {
+            "A": "The categorization of risks prior to risk determination",
+            "B": "The categorization of risks after implementing mitigation actions",
+            "C": "The categorization of risks after the initial risk assessment",
+            "D": "The categorization of risks after risk identification",
+            "E": "The categorization of risks coming from outside the enterprise"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, why is Architecture Governance beneficial?",
+        "options": {
+            "A": "It ensures discipline, i.e. Commitment to adhere to procedures, processes, and authority structures.",
+            "B": "It ensures fairness, i.e. decisions taken, processes used, and implementation will not be allowed to create unfair advantage to any party.",
+            "C": "It ensures transparency, i.e. decisions and supporting actions will be available for inspection.",
+            "D": "It ensures accountability, i.e. organization groups are authorized & accountable for their actions.",
+            "E": "All of the above"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "According to the TOGAF Standard, who is responsible for enforcing Architecture Compliance?",
+        "options": {
+            "A": "Architecture Review Coordinator",
+            "B": "Lead Enterprise Architect",
+            "C": "Project Leader",
+            "D": "Architecture Board",
+            "E": "Chief Executive Officer (CEO)"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following terms the TOGAF Standard defines as individual, team, organization or class thereof, having an interest in a system?",
+        "options": {
+            "A": "Customer",
+            "B": "Consumer",
+            "C": "Stakeholder",
+            "D": "Sponsor",
+            "E": "Enterprise Architect"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following statements about Architecture Content is false?",
+        "options": {
+            "A": "A viewpoint defines the perspective from which a view is taken.",
+            "B": "A view is what a stakeholder sees.",
+            "C": "A view might describe a business process for an IT system.",
+            "D": "A view can be seen as a template for a viewpoint."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following statements about the concept of concerns is false?",
+        "options": {
+            "A": "A concern might include performance and reliability.",
+            "B": "A concern is an interest in a system to stakeholders.",
+            "C": "Concern and requirement are synonymous.",
+            "D": "A concern may pertain to any aspect of the system's functioning, development, or operation."
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following statements describing relationships between stakeholders, concerns, views and viewpoints is true?",
+        "options": {
+            "A": "A concern is important to only one stakeholder.",
+            "B": "A stakeholder has one or more concerns.",
+            "C": "A viewpoint covers exactly one concern.",
+            "D": "A viewpoint consists of one or more views.",
+            "E": "Viewpoints are instantiations of concerns."
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following statements does not define a Building Block (BB)?",
+        "options": {
+            "A": "It is a package of functionality defined to meet the business needs.",
+            "B": "It can be defined at various levels of detail.",
+            "C": "It has a specification that is tightly coupled to its implementation.",
+            "D": "It has normally a type that corresponds to the Enterprise Metamodel."
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following applies to an Architecture Building Block (ABB)?",
+        "options": {
+            "A": "It specifies the required Solution Building Blocks (SBBs) at a more logical (or supplier-independent) level.",
+            "B": "It is product or vendor-aware.",
+            "C": "It defines what components will implement the functionality.",
+            "D": "It defines the implementation.",
+            "E": "It describes the scope and depth of the architecture project."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following phases of the TOGAF Architecture Development Method (ADM) defines the overall Solution Building Blocks (SBBs)?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase B: Business Architecture",
+            "C": "Phase D: Technology Architecture",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as the role of (Architecture) Deliverables?",
+        "options": {
+            "A": "They are defined so as to avoid tailoring the TOGAF Framework.",
+            "B": "They represent the output of projects.",
+            "C": "They are architectural work products that describe an aspects of the architecture.",
+            "D": "They represent statements of need, which are unambiguous, testable or measurable, and necessary for acceptability.",
+            "E": "All of the above"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following lists work packages (i.e., part of a project, a complete project, or a program) within the enterprise?",
+        "options": {
+            "A": "Architecture Building Block",
+            "B": "Architecture Repository",
+            "C": "Architecture Roadmap",
+            "D": "Architecture Vision",
+            "E": "Content Metamodel"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following documents acts as a deliverable container for the core architectural artifacts created during an architecture project?",
+        "options": {
+            "A": "Architecture Contract",
+            "B": "Architecture Definition Document",
+            "C": "Architecture Roadmap",
+            "D": "Architecture Requirements Specification",
+            "E": "Architecture Vision"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following documents is produced early in an Architecture Development Method (ADM) cycle containing a summary of the changes to the enterprise?",
+        "options": {
+            "A": "Architecture Roadmap",
+            "B": "Statement of Architecture Work",
+            "C": "Request for Architecture Work",
+            "D": "Architecture Vision",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following are the Architecture Domains that are commonly accepted subsets of an overall Enterprise Architecture?",
+        "options": {
+            "A": "Strategic, Segment, Capability",
+            "B": "Business, Data, Application, Technology",
+            "C": "Contextual, Conceptual, Logical, Physical",
+            "D": "Vision, Definition, Realization, Transition"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, what is the difference between an artifact and a deliverable?",
+        "options": {
+            "A": "An artifact contains one or more deliverables.",
+            "B": "Artifacts and deliverables are synonymous. There is no difference between them.",
+            "C": "Deliverables are prepared by the project manager, whereas artifacts are defined by the enterprise architect.",
+            "D": "Deliverables are reusable, whereas artifacts are unique to a given architecture project.",
+            "E": "Deliverables are specified as contractual outputs from a project, whereas artifacts are not."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard lists as the main components within the Architecture Repository?",
+        "options": {
+            "A": "Organizational Metamodel, Architecture Capability, Architecture Landscape, Best Practices, Reference Library, Compliance Strategy",
+            "B": "Architecture Metamodel, Organizational Capability Model, Application Landscape, Reference Library, Governance Model",
+            "C": "Business Metamodel, Architecture Capability, Architecture Landscape, Reference Library, Governance Repository, Standards Library",
+            "D": "Architecture Metamodel, Solutions Landscape, Architecture Requirements Repository, Architecture Landscape, Reference Library, Standards Library, Governance Repository, Architecture Capability",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Standard, where should Architecture Governance activities be stored within the Architecture Repository?",
+        "options": {
+            "A": "Architecture Capability",
+            "B": "Architecture Metamodel",
+            "C": "Standards Library",
+            "D": "Reference Library",
+            "E": "Solutions Landscape"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as the implications of the Architecture Development Method (ADM) expressing recommendations on what may be done to define and deploy an Enterprise Architecture?",
+        "options": {
+            "A": "The organization must utilize an architecture tool to tailor the ADM templates for use.",
+            "B": "The ADM should be adapted to meet the needs of the enterprise and support different architecture styles.",
+            "C": "The ADM can only be used for full organizational architecture projects.",
+            "D": "The ADM can be used by most enterprises out-of-the-box without further tailoring.",
+            "E": "The ADM should be employed under the supervision of external EA consultants."
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following is the Architecture Domain that describes the logical software & hardware infrastructure capabilities?",
+        "options": {
+            "A": "Application Architecture",
+            "B": "Infrastructure Architecture",
+            "C": "Capability Architecture",
+            "D": "Technology Architecture",
+            "E": "IT Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which part of the TOGAF Standard documentation provides guidance to address specific concerns and use-cases with further explanations and more details than the core content?",
+        "options": {
+            "A": "TOGAF Library",
+            "B": "TOGAF Series Guides",
+            "C": "ADM Techniques",
+            "D": "Architecture Content"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as a categorization method for architecture and solution artifacts within the Architecture Repository?",
+        "options": {
+            "A": "Architecture Landscape",
+            "B": "Governance Repository",
+            "C": "Enterprise Continuum",
+            "D": "Standards Information Library",
+            "E": "Architecture Principle"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Complete the sentence: To promote a successful Enterprise Architecture practice, the TOGAF Standard recommends the establishment of a(n)...",
+        "options": {
+            "A": "Program Management Office",
+            "B": "Quality Insurance Department",
+            "C": "Service Management Line",
+            "D": "Enterprise Architecture Capability",
+            "E": "Public Relations & Communications Unit"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following document is produced in the TOGAF Architecture Development Method (ADM) Phase A: Architecture Vision as a response to the Request for Architecture Work?",
+        "options": {
+            "A": "Requirements Impact Statement",
+            "B": "Architecture Principle",
+            "C": "Architecture Contract",
+            "D": "Statement of Architecture Work",
+            "E": "Request for Architecture Work"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which phase of the Architecture Development Method (ADM) is used to finalize a set of Transition Architectures that will support the implementation?",
+        "options": {
+            "A": "Phase D: Technology Architecture",
+            "B": "Phase E: Opportunities and Solutions",
+            "C": "Phase F: Migration Planning",
+            "D": "Phase G: Implementation Governance",
+            "E": "Requirements Management"
+        },
+        "answer": "C"
+    }
+]
+
+[
+    {
+        "question": "Which is not a key benefit of having an Enterprise Architecture for an organization?",
+        "options": {
+            "A": "Return on existing investment & reduced risk for future investment",
+            "B": "Effective and efficient business operations",
+            "C": "Effective strategic decision-making by C-Level executives & business leaders",
+            "D": "Effective and efficient digital transformation and operations",
+            "E": "Standardization in the software development lifecycle"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "What does the acronym BDAT stand for in the TOGAF Standard?",
+        "options": {
+            "A": "Business, Data, Application & Technology",
+            "B": "Best Data & Application Technology",
+            "C": "Business Driven Application Technique",
+            "D": "Bind, Decide, Act & Transform"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, which organization or role usually initiates a Request for Architecture Work?",
+        "options": {
+            "A": "Sponsoring organization",
+            "B": "Architecture organization",
+            "C": "Corporate Governance Board",
+            "D": "Requirements Management Team",
+            "E": "Chief Security Officer"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which pair of the following responses best completes the sentence? Architecture Building Blocks (ABBs)..., whereas Solution Building Blocks (SBBs)...",
+        "options": {
+            "A": "are reusable / are not reusable",
+            "B": "define the architecture / provide the existing legacy system",
+            "C": "are assembled / are single function components",
+            "D": "define functionality / define the implementation of functionality"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following best describes the purpose of the Architecture Definition Document?",
+        "options": {
+            "A": "Set of general rules and guidelines",
+            "B": "Description to allow the measurement of the compliance implementation",
+            "C": "Document that triggers the start of an architecture development cycle",
+            "D": "Qualitative view to communicate the intent of the architects",
+            "E": "An agreement between development partners and sponsors on the deliverables"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "What class of architectural information within the Architecture Repository provides a record of governance activity across the enterprise?",
+        "options": {
+            "A": "Architecture Capability",
+            "B": "Architecture Requirements Repository",
+            "C": "Architecture Metamodel",
+            "D": "Governance Repository",
+            "E": "Reference Library"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence: As the architecture evolves, the artifacts in the Solutions Continuum progress towards a(n)...",
+        "options": {
+            "A": "...Architecture Continuum.",
+            "B": "...deployed solutions.",
+            "C": "...generic solutions.",
+            "D": "...generalization for future re-use.",
+            "E": "...specific Solutions."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "On which phases of the Architecture Development Method the Business Principles, Business Goals and Business Drivers may have implications for the way that architecture is developed?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Phase C: Information Systems Architectures",
+            "C": "Phase D: Technology Architecture",
+            "D": "All of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as a primary use of the Architecture Vision?",
+        "options": {
+            "A": "Checklist for compliance reviews",
+            "B": "Summary of the changes to the enterprise",
+            "C": "Tool for calculating detailed cost estimates",
+            "D": "Approach to select vendors to conduct a system demonstration"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as an Architecture Contract?",
+        "options": {
+            "A": "An agreement between the development partners and stakeholders on the acceptable risks and mitigating actions for an architecture",
+            "B": "An agreement between the development partners and sponsors on the deliverables, quality and fitness-for-purpose of an architecture",
+            "C": "An agreement between the lead architect and the development partners on the enforcement of Architecture Compliance",
+            "D": "An agreement between the development partners and sponsors on how best to monitor the implementation of the architecture",
+            "E": "An agreement between the Architecture Team and the project leaders how best to implement the Enterprise Architecture"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following is not a purpose of an Enterprise Architecture Capability according to the TOGAF Standard?",
+        "options": {
+            "A": "Architecture to support enterprise change",
+            "B": "Architecture to support strategy",
+            "C": "Architecture to support portfolio",
+            "D": "Architecture to support projects",
+            "E": "Architecture to support solutions delivery"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Complete the sentence: According to the TOGAF Standard, the Architecture Board has usually the following operational responsibilities except...",
+        "options": {
+            "A": "Monitoring, controlling and publishing of Architecture Contracts",
+            "B": "Ensuring compliance with the architectures",
+            "C": "Providing advice, guidance and information",
+            "D": "Enabling management in understanding the value of Enterprise Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "What ADM Technique does TOGAF recommend for identifying, understanding and documenting the business needs?",
+        "options": {
+            "A": "Risk Management",
+            "B": "Gap Analysis",
+            "C": "Business Scenarios",
+            "D": "Interoperability",
+            "E": "Architecture Principles"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Gap Analysis is a key step in validating an architecture under development. Which of the following statements is true?",
+        "options": {
+            "A": "Gap analysis highlights available services.",
+            "B": "Gap analysis defines what must be changed within the enterprise.",
+            "C": "Gap analysis highlights Solution Building Blocks (SBBs) that are yet to be procured.",
+            "D": "Gap analysis can be used to resolve conflicts among stakeholders."
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following topic areas is not included in the Fundamental Content of the TOGAF Standard?",
+        "options": {
+            "A": "Architecture Development Method (ADM)",
+            "B": "ADM Techniques",
+            "C": "Architecture Content",
+            "D": "Enterprise Architecture Capability and Governance",
+            "E": "Digital Enterprise & Agile Architecture"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Complete the sentence: The TOGAF Architecture Development Method (ADM) Phase A Architecture Vision is initiated upon receipt of...",
+        "options": {
+            "A": "...an approval from the Chief Information Officer (CIO).",
+            "B": "...a directive from the Chief Executive Officer (CEO).",
+            "C": "...the Implementation and Migration Plan.",
+            "D": "...the Request for Architecture Work from the sponsoring organization.",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "According to the TOGAF Standard, which of the following is a view on the Enterprise Repositories and categorizes architecture and solution artifacts as they evolve?",
+        "options": {
+            "A": "Enterprise Continuum",
+            "B": "Governance Repository",
+            "C": "TOGAF Library",
+            "D": "Architecture Landscape",
+            "E": "Enterprise Metamodel"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which statement about the Foundation-level Core Enterprise Metamodel is false? The model...",
+        "options": {
+            "A": "...supports the architecture work.",
+            "B": "...provides context for the artifacts suggested in the Architecture Development Method (ADM).",
+            "C": "...structures the architectural information meeting stakeholders needs.",
+            "D": "...is a detailed model of architectural work products."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence: All of the following are technology-related factors for a Change Request, except...",
+        "options": {
+            "A": "...technology withdrawal.",
+            "B": "...new technology reports.",
+            "C": "...IT standardization initiative.",
+            "D": "...new business strategy.",
+            "E": "None of the above"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence: All of the following are part of the approach to the Preliminary Phase, except...",
+        "options": {
+            "A": "...defining the enterprise.",
+            "B": "...identifying key drivers and elements in the organizational context.",
+            "C": "...defining the framework to be used.",
+            "D": "...defining the requirements for architecture work.",
+            "E": "...defining Architecture Contracts."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "In which phase of the Architecture Development Method (ADM) do activities include assessing the dependencies, costs and benefits of the migration projects?",
+        "options": {
+            "A": "Phase E: Opportunities and Solutions",
+            "B": "Phase F: Migration Planning",
+            "C": "Requirements Management",
+            "D": "Phase G: Implementation Governance",
+            "E": "All of the above"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is defined as a formal description of the enterprise, providing executive-level, long-term view for direction setting?",
+        "options": {
+            "A": "Segment Architecture",
+            "B": "Strategic Architecture",
+            "C": "Baseline Architecture",
+            "D": "Foundation Architecture",
+            "E": "Business Architecture"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is defined as a formal description of one state of the architecture at an architecturally significant point in time?",
+        "options": {
+            "A": "Baseline Architecture",
+            "B": "Target Architecture",
+            "C": "To-Be Architecture",
+            "D": "Transition Architecture",
+            "E": "As-Is Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence: The TOGAF Architecture Development Method (ADM) Phase H - Architecture Change Management...",
+        "options": {
+            "A": "...ensures that the architecture achieves its original target business value.",
+            "B": "...develops baseline and target architectures and analyzes the gaps.",
+            "C": "...prepares and issues Architecture Contracts.",
+            "D": "...ensures that the architecture is constantly reported to senior management.",
+            "E": "All of the above"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following is the last step before finalizing the architecture development of the four Architecture Domains Business, Data, Application and Technology Architecture?",
+        "options": {
+            "A": "Perform a Gap Analysis",
+            "B": "Select reference models, viewpoints, and tools",
+            "C": "Develop Target Technology Architecture Description",
+            "D": "Conduct formal stakeholder review",
+            "E": "Define candidate roadmap components"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following statements the TOGAF Standard does not use to describe the phases of the Architecture Development Method (ADM)?",
+        "options": {
+            "A": "All phases are cyclical.",
+            "B": "All phases are iterative.",
+            "C": "Each phase refines the scope.",
+            "D": "Each phase is mandatory.",
+            "E": "Each phase has information flows to other phases."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard does not consider as a dimension to consider when setting the scope of an architecture?",
+        "options": {
+            "A": "Enterprise Scope (breadth)",
+            "B": "Architecture Domains",
+            "C": "Level of Detail (depth)",
+            "D": "Time Period",
+            "E": "Data Recency"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following is main information managed by a Governance Repository according to the TOGAF Standard?",
+        "options": {
+            "A": "Foundation Architectures, Industry Architectures, Organization-specific Architectures",
+            "B": "Application Architecture, Business Architecture, Data Architecture",
+            "C": "Governance Activities, Audit Information, Process Status",
+            "D": "Solution Landscape, Reference Library, Architecture Metamodel"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following best completes the sentence: In the TOGAF Standard, the Enterprise Continuum aids communication...",
+        "options": {
+            "A": "...within the enterprise.",
+            "B": "...between enterprises.",
+            "C": "...with vendor organizations.",
+            "D": "...by providing a consistent language to understand the differences between architectures.",
+            "E": "All of the above"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard considers as the constituent parts of the Enterprise Continuum?",
+        "options": {
+            "A": "Standards Library, Reference Library",
+            "B": "Architecture Continuum, Solutions Continuum",
+            "C": "Conceptual Level, Physical Level",
+            "D": "Business Architecture, Application Architecture"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which level of the Architecture Landscape contains the most detail?",
+        "options": {
+            "A": "Strategic Architecture",
+            "B": "Capability Architecture",
+            "C": "Segment Architecture",
+            "D": "Technology Architecture",
+            "E": "Transformation Architecture"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the TOGAF Architecture Development Method (ADM) phases includes the development of Application and Data Architectures?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase B: Business Architecture",
+            "C": "Phase C: Information Systems Architectures",
+            "D": "Phase D: Technology Architecture",
+            "E": "None of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the TOGAF Architecture Development Method (ADM) phases includes the objective of establishing the organizational model for Enterprise Architecture?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase C: Information Systems Architectures",
+            "E": "Phase D: Technology Architecture"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following is an objective of the TOGAF Architecture Development Method (ADM) Phase A: Architecture Vision?",
+        "options": {
+            "A": "Developing a high-level aspirational vision of the capabilities and business value to be delivered as a result of the proposed Enterprise Architecture",
+            "B": "Reviewing the stakeholders, their requirements, and priorities",
+            "C": "Generating and gaining consensus on an outline Implementation and Migration Strategy",
+            "D": "Formulating recommendations for each implementation project",
+            "E": "Providing a process to manage architecture requirements"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Complete the sentence: According to the TOGAF Standard, all of the following are part of the approach to the Preliminary Phase, except...",
+        "options": {
+            "A": "Creating the Architecture Vision",
+            "B": "Defining the enterprise",
+            "C": "Defining the framework to be used",
+            "D": "Defining the relationships between management frameworks",
+            "E": "Evaluating the Enterprise Architecture maturity"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following is a recommended way to evaluate an organization's readiness to address business transformation?",
+        "options": {
+            "A": "Capability Maturity Models",
+            "B": "Business Transformation Readiness Assessment",
+            "C": "Risk Management",
+            "D": "Business Scenarios",
+            "E": "Architecture Principles"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the TOGAF Architecture Development Method (ADM) phases commences with receipt of a Request for Architecture Work from the sponsoring organization?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Requirements Management",
+            "C": "Phase A: Architecture Vision",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "Phase G: Implementation Governance"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following is a ADM Technique that can be used to discover and document business needs in TOGAF Architecture Development Method (ADM) Phase A: Architecture Vision?",
+        "options": {
+            "A": "Gap Analysis",
+            "B": "Stakeholder Management",
+            "C": "Business Scenarios",
+            "D": "Information Maps",
+            "E": "Business Transformation Readiness Assessment"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, a good Business Scenario should be \"SMART\". What does the letter \"S\" stand for?",
+        "options": {
+            "A": "Solution-oriented",
+            "B": "Strategic",
+            "C": "Segmented",
+            "D": "Stakeholder-oriented",
+            "E": "Specific"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following statements about Architecture Governance is false according to the TOGAF Standard?",
+        "options": {
+            "A": "The Chief Architect manages the Architecture Governance activity.",
+            "B": "Architecture Governance may exist at multiple geographic levels within the enterprise.",
+            "C": "Architecture Governance is a system by which (Enterprise) Architectures are directed and controlled.",
+            "D": "Architecture Governance operates within a hierarchy of governance structures (= tiers)."
+        },
+        "answer": "A"
+    }
+]
+
+
+[
+    {
+        "question": "Which one of the following is the entry level certification for an individual wanting to be certified in the TOGAF Standard?",
+        "options": {
+            "A": "TOGAF® Enterprise Architecture Foundation",
+            "B": "TOGAF® Enterprise Architecture Practitioner",
+            "C": "TOGAF® Business Architecture Foundation",
+            "D": "TOGAF® Enterprise Architecture Level 1",
+            "E": "None of the above"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "All of the following apply to the TOGAF Enterprise Architecture Part 1 Exam except which statement?",
+        "options": {
+            "A": "The exam consists of 60 questions",
+            "B": "It is a closed book examination",
+            "C": "Extra time, if English is 2nd language",
+            "D": "Pass mark is 60% min.",
+            "E": "The exam validates that the candidate has gained knowledge of the terminology and basic concepts of The TOGAF® Standard."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following is not an Architecture Domain of the Enterprise Architecture according to the TOGAF Standard?",
+        "options": {
+            "A": "Business Architecture",
+            "B": "Technology Architecture",
+            "C": "Data Architecture",
+            "D": "Application Architecture",
+            "E": "Organization Architecture"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following is not an Architecture Abstraction Level according to the TOGAF Standard?",
+        "options": {
+            "A": "Contextual Abstraction",
+            "B": "Physical Abstraction",
+            "C": "Strategic Abstraction",
+            "D": "Logical Abstraction",
+            "E": "Conceptual Abstraction"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard defines as a representation of a system from the perspective of a related set of concerns?",
+        "options": {
+            "A": "Stakeholder",
+            "B": "Concern",
+            "C": "(Architecture) View",
+            "D": "(Architecture) Viewpoint",
+            "E": "Architecture Principle"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard defines as a categorization model for classifying architecture and solution artifacts?",
+        "options": {
+            "A": "Architecture Principle",
+            "B": "Architecture Repository",
+            "C": "Enterprise Metamodel",
+            "D": "Enterprise Continuum",
+            "E": "Foundation Architecture"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following the TOGAF Standard defines as a shortfall between Baseline and Target Architecture?",
+        "options": {
+            "A": "Constraint",
+            "B": "Deliverable",
+            "C": "Viewpoint",
+            "D": "Gap",
+            "E": "Concern"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which component of the Architecture Repository in the TOGAF Standard provides guidelines, templates, patterns and other forms of reference material?",
+        "options": {
+            "A": "Architecture Metamodel",
+            "B": "Solutions Landscape",
+            "C": "Reference Library",
+            "D": "Governance Repository",
+            "E": "Architecture Capability"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Complete the sentence: In the TOGAF Standard, the Enterprise Continuum is...",
+        "options": {
+            "A": "...an Architecture Framework.",
+            "B": "...a database of open industry standards.",
+            "C": "...a technical reference model.",
+            "D": "...a method for developing architectures.",
+            "E": "...a model for classifying artifacts."
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard defines as an architectural work product that describes an aspect of the architecture?",
+        "options": {
+            "A": "Deliverable",
+            "B": "Artifact",
+            "C": "Architecture Building Block (ABB)",
+            "D": "Solution Building Block (SBB)",
+            "E": "Concern"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following is not a phase of the TOGAF Architecture Development Method (ADM)?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase F: Migration Planning",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase G: Implementation Governance",
+            "E": "Phase C: Requirements Architecture"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the TOGAF Architecture Development Method (ADM) phase includes the creation and approval of the Architecture Vision?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Requirements Management",
+            "C": "Phase A",
+            "D": "Phase B",
+            "E": "Phase C"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the TOGAF Architecture Development Method (ADM) phase provides an architectural oversight of the implementation?",
+        "options": {
+            "A": "Phase H",
+            "B": "Phase E",
+            "C": "Phase G",
+            "D": "Requirements Management",
+            "E": "All of the above"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following is not part of the TOGAF Fundamental Content?",
+        "options": {
+            "A": "Architecture Content",
+            "B": "Introduction & Core Concepts",
+            "C": "ADM Techniques",
+            "D": "Enterprise Architecture Capability and Governance",
+            "E": "Security Architecture"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following best describes the need for an Enterprise Architecture?",
+        "options": {
+            "A": "Achieving a balance between business transformation and operational efficiency",
+            "B": "Optimizing across the enterprise the often fragmented legacy of processes into an integrated environment",
+            "C": "Providing a strategic context for the evolution and reach of digital capability in response to the constantly changing needs of the business environment",
+            "D": "Providing an integrated strategy which permits the closest possible synergies across the enterprise and beyond",
+            "E": "All of the above"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following statements does not correctly describe an architecture deliverable? According to the TOGAF Standard a deliverable...",
+        "options": {
+            "A": "...is an architectural work product.",
+            "B": "...is contractually specified.",
+            "C": "...represents the output of projects.",
+            "D": "...is defined to avoid tailoring the inputs and outputs of the ADM cycle.",
+            "E": "...is formally reviewed, agreed, and signed off by the stakeholders."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "What TOGAF Standard deliverable identifies changes that should be made to the architecture and considers their implications?",
+        "options": {
+            "A": "Request for Architecture Work",
+            "B": "Requirements Impact Assessment",
+            "C": "Architecture Roadmap",
+            "D": "Capability Assessment",
+            "E": "Change Request"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard considers as an attribute of a good Building Block?",
+        "options": {
+            "A": "Considers implementation & usage",
+            "B": "Is re-usable and replaceable",
+            "C": "Has defined boundaries and specification",
+            "D": "Evolves to exploit technology & standards",
+            "E": "All of the above"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as the content of a Building Block (BB)?",
+        "options": {
+            "A": "Package of functionality",
+            "B": "Defined Implementation",
+            "C": "Products and components",
+            "D": "Coded application logic",
+            "E": "Agreed Service Level Agreement"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, (Architecture) Views and (Architecture) Viewpoints are used by an architect to capture or model the design of a system architecture. Which one of the following statements is true?",
+        "options": {
+            "A": "Every view has an associated viewpoint that describes it, at least implicitly",
+            "B": "A viewpoint is always specific to the architecture for which it is created",
+            "C": "Different stakeholders always share the same views",
+            "D": "Different stakeholders always share the same viewpoints"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Stakeholders and their concerns are key concepts in the TOGAF Standard. Which one of the following statements is false?",
+        "options": {
+            "A": "A concern is an interest in a system relevant to one or more of its stakeholders",
+            "B": "A stakeholder is an individual, team, organization, or class thereof, having an interest in a system",
+            "C": "Identifying concerns helps ensure stakeholders' interests are addressed and requirements are identified",
+            "D": "Concerns should be SMART and have specific metrics."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which part of the TOGAF Fundamental Content contains a tested and repeatable process for developing an Enterprise Architectures?",
+        "options": {
+            "A": "Architecture Content",
+            "B": "ADM Techniques",
+            "C": "Architecture Development Method",
+            "D": "Introduction and Core Concepts",
+            "E": "(Architecture) Content Framework"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the TOGAF Architecture Development Method (ADM) phase includes the creation of an Application and a Data Architecture?",
+        "options": {
+            "A": "Phase B: Business Architecture",
+            "B": "Phase C: Information Systems Architectures",
+            "C": "Phase D: Technology Architecture",
+            "D": "Preliminary Phase",
+            "E": "Phase G: Implementation Governance"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard describes as an architectural work product that is contractually specified and formally reviewed, agreed, and signed off by the stakeholders.",
+        "options": {
+            "A": "Deliverable",
+            "B": "Artifact",
+            "C": "Building Block",
+            "D": "Catalog",
+            "E": "Matrix"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, in which Architecture Development Method (ADM) phase the initial implementation planning occur?",
+        "options": {
+            "A": "Phase A: Architecture Vision",
+            "B": "Phase B: Business Architecture",
+            "C": "Phase C: Information Systems Architectures",
+            "D": "Phase D: Technology Architecture",
+            "E": "Phase E: Opportunities and Solutions"
+        },
+        "answer": "E"
+    },
+    {
+        "question": "Complete the sentence: According to the TOGAF Standard, the architectures that address the detailed needs and business requirements are known as...",
+        "options": {
+            "A": "Strategic Architectures",
+            "B": "Specific Architectures",
+            "C": "Specific Solutions",
+            "D": "Architecture Context and Requirements"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following is described as a view on artifacts held in the Enterprise Repositories?",
+        "options": {
+            "A": "Governance Repository",
+            "B": "TOGAF Library",
+            "C": "Architecture Landscape",
+            "D": "Enterprise Continuum",
+            "E": "Governance Archive"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following describes a purpose of an (Architecture) Compliance Assessment within the TOGAF Standard?",
+        "options": {
+            "A": "Ensures that the design and implementation is in line with the strategic and architectural objectives and the Architecture Vision",
+            "B": "Define the capabilities of the organization",
+            "C": "Communicate technical readiness of the project",
+            "D": "Produce a new Request for Architecture Work"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard considers as an essential aspect of Architecture Governance?",
+        "options": {
+            "A": "Conducting Business Scenarios",
+            "B": "Authoring the Communications Plan for a given architecture project",
+            "C": "Ensuring architecture compliance of projects",
+            "D": "Authoring the Architecture Definition Document"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following best describes the reasons for the establishment of an Architecture Board?",
+        "options": {
+            "A": "Conduct source code design reviews",
+            "B": "Conduct performance appraisals on the Enterprise Architecture team",
+            "C": "Review and maintenance of the architecture and oversee the implementation of the strategy",
+            "D": "Ensure that new applications a introduced in a managed change process",
+            "E": "Facilitate the adoption of advanced information technology"
+        },
+        "answer": "C"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard does not consider as a responsibility of the Architecture Board?",
+        "options": {
+            "A": "Improving the maturity level of architecture discipline",
+            "B": "Increasing the Enterprise Architecture competences of project managers",
+            "C": "Enforcing of Architecture Compliance",
+            "D": "Establishing targets for re-use of components",
+            "E": "Ensuring the discipline of architecture-based development"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "Which part of the TOGAF Standard template for defining Architecture Principles should highlight the business benefits of adhering to the principle?",
+        "options": {
+            "A": "Rationale",
+            "B": "Statement",
+            "C": "Implications",
+            "D": "Name",
+            "E": "None of the above"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, which one of the following statements about Architecture Principles is not true?",
+        "options": {
+            "A": "They are used in the Requirements Management phase to dispose of, address, and prioritize requirements.",
+            "B": "They are influenced by emerging industry trends and enterprise mission & plans.",
+            "C": "They are typically developed by the Enterprise Architects in conjunction with the key stakeholders.",
+            "D": "They provide a foundation for making architecture and planning decisions."
+        },
+        "answer": "A"
+    },
+    {
+        "question": "According to the TOGAF Standard, which statement about a good Architecture principle is false?",
+        "options": {
+            "A": "Intentions of the principle are clear, understandable & unambiguous.",
+            "B": "The principle enables good quality and consistent decisions about architectures.",
+            "C": "The principle is expressed in a way that allows a balance of flexible interpretations without contradictions.",
+            "D": "The principle is transient and updated frequently."
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Which one of the following the TOGAF Standard defines as the risk categorization after the implementation of mitigation actions?",
+        "options": {
+            "A": "Actual level of risk",
+            "B": "Initial level of risk",
+            "C": "Target level of risk",
+            "D": "Residual level of risk",
+            "E": "Accepted level of risk"
+        },
+        "answer": "D"
+    },
+    {
+        "question": "Complete the sentence: Business Architecture is the first architecture activity undertaken in the TOGAF Architecture Development Method (ADM) since...",
+        "options": {
+            "A": "it defines the physical realization of an architectural solution.",
+            "B": "it finalizes the Architecture Vision and Architecture Definition documents.",
+            "C": "it is a prerequisite for architecture work in any other domain (Data, Application, Technology).",
+            "D": "it identifies the key applications used in the enterprise."
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) is an initial assessment of Business Transformation Readiness performed?",
+        "options": {
+            "A": "Preliminary Phase",
+            "B": "Phase A: Architecture Vision",
+            "C": "Phase B: Business Architecture",
+            "D": "Phase E: Opportunities and Solutions",
+            "E": "Phase F: Migration Planning"
+        },
+        "answer": "B"
+    },
+    {
+        "question": "The approach of the TOGAF ADM Preliminary Phase is about defining \"where, what, why, who, and how we do architecture\". Which one of the following statements is false?",
+        "options": {
+            "A": "\"Where\" can be seen as scoping the enterprise organizations impacted.",
+            "B": "\"Why\" can be seen as the key drivers and elements in the organizational context.",
+            "C": "\"Who\" can be seen as the sponsor responsible for performing the architectural work.",
+            "D": "\"How\" can be seen as the Enterprise Architecture, governance and support frameworks to be used."
+        },
+        "answer": "C"
+    },
+    {
+        "question": "In which phase of the TOGAF Architecture Development Method (ADM) are the Gap Analysis results from the four Architecture Domains taken into account?",
+        "options": {
+            "A": "Phase E: Opportunities and Solutions",
+            "B": "Phase F: Migration Planning",
+            "C": "Phase G: Implementation Governance",
+            "D": "Phase H: Architecture Change Management",
+            "E": "None of the above"
+        },
+        "answer": "A"
+    },
+    {
+        "question": "In the TOGAF Architecture Development Method (ADM) Phase D, which one of the following resources should be considered in the development of the Technology Architecture?",
+        "options": {
+            "A": "Technical Reference Model (TRM)",
+            "B": "Stakeholder Map",
+            "C": "Implementation and Migration Plan",
+            "D": "Governance Repository",
+            "E": "Business rules"
+        },
+        "answer": "A"
+    }
+]
