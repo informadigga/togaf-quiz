@@ -90,14 +90,24 @@ export class DatabaseStorage implements IStorage {
       return existingUser;
     }
     
-    // Create new user with display name as username
+    // Create new user with display name as username, handle duplicates
     const username = displayName.toLowerCase().replace(/\s+/g, '_');
-    const [newUser] = await db.insert(users).values({
-      username,
-      displayName,
-    }).returning();
-    
-    return newUser;
+    try {
+      const [newUser] = await db.insert(users).values({
+        username,
+        displayName,
+      }).returning();
+      return newUser;
+    } catch (error) {
+      if (error.code === '23505') {
+        // Username already exists, try to find by username
+        const [existingByUsername] = await db.select().from(users).where(eq(users.username, username));
+        if (existingByUsername) {
+          return existingByUsername;
+        }
+      }
+      throw error;
+    }
   }
 
   async getAllQuestions(): Promise<Question[]> {
